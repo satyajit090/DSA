@@ -15,8 +15,9 @@ public class FindFirstAndLastPositionOfElementInSortedArray {
 
         int[] krr={-1,-1};
          krr[0]=firstndexSearch(nums,target,true);
-         krr[1]=firstndexSearch(nums,target,false);
-
+         if(krr[0]!= -1) {
+             krr[1] = firstndexSearch(nums, target, false);
+         }
          return krr;
     }
 
