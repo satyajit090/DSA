@@ -12,7 +12,7 @@ public class Assignment1 {
         emp.add(new Employee("Rosan",2,4555));
         emp.add(new Employee("jeevan",3,2000));
 
-        Collections.sort(emp, new Comparator<Employee>() {
+        Collections.sort(emp, new Comparator<>() {
             @Override
             public int compare(Employee o1, Employee o2) {
                 return Double.compare(o1.getSalary(),o2.getSalary());
@@ -70,7 +70,7 @@ class Employee{
 
     @Override
     public String toString() {
-        return "Employee{" +
+        return "Employe{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", salary=" + salary +
