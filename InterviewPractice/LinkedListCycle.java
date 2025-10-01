@@ -12,9 +12,6 @@ class  ListNode{
 public class LinkedListCycle {
 
     public static void main(String[] args) {
-//        System.out.println("Satyajit");
-//        ListNode head=new ListNode(0);
-//        boolean m=hasCycle(head);
         ListNode head1 = new ListNode(1);
         head1.next = new ListNode(2);
         head1.next.next = new ListNode(3);
